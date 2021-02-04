@@ -1,19 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-    <ul id="navbar">
-        <li><a href = "#home">Home</a></li>
-        <li class = "dropdown">
-            <a href="javascript:void(0)" class = "dropbtn">Projects</a>
-            <div class="dropdown-content">
-                <a href="#">Speed Reader</a>
-                <a href="#">Rage Board</a>
-                <a href="#">Snake Game</a>
-            </div>
-        </li>
-        <li><a href = "#resume">Resume</a></li>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Portfolio</a>
+          </div>
+
+          <ul class="nav navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Resume</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Rage Board</a>
+                  <a class="dropdown-item" href="#">Speed Reader</a>
+                  <a class="dropdown-item" href="#">Snake Game</a>
+                </div>
+              </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div id="aboutMe"></div>
+        <h1 style="font-size: 80px;" class="title">Tahsin Islam</h1>
+        <br>
+        <h2 class="title"> I am a sophomore at the University of Central Florida studying Computer Science</h2>
+    </div>
+
+
+    <div id="knowledge">
+        <div class="flex-child">
+            <img class="icon" src="assets/js.png">
+            <h3 class="subtitle">JavaScript</h3>
+            <h4 class="subtitle">I use JavaScript to build programs on my projects</h4>
+        </div>
+        <div class="flex-child">
+            <img class="icon" src="assets/html5.png">
+        </div>
+        <div class="flex-child">
+            <img class="icon" src="assets/css.png">
+        </div>
+        <div class="flex-child">
+            <img class="icon" src="assets/jquery.jpg">
+        </div>
+    </div>
 </body>
