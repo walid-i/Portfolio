@@ -5,27 +5,15 @@
     flex-flow: row wrap;
     padding: 5%;
     width: 100%;
-    border: 1px solid red;
 }
 
 .icon {
     width: 150px;
     height: 150px;
-    border: 1px solid blue;
-}
-
-.flex-child {
-    flex: 1;
-    border: 1px solid green;
-    text-align: center;
 }
 
 #knowledgetxt {
     text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
-
-.nav>li {
-    position: relative;
-    display: block;
-  }
-
