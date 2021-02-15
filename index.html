@@ -30,7 +30,13 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+   
+
+
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">Portfolio</a>
@@ -41,63 +47,88 @@
                 <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Resume</a>
+                <a target="_blank" class="nav-link" href="./assets/WalidResume2020.pdf">Resume</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
                   Projects
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Rage Board</a>
-                  <a class="dropdown-item" href="#">Speed Reader</a>
-                  <a class="dropdown-item" href="#">Snake Game</a>
+                  <a target="_blank" class="dropdown-item" href="./projects/rageboard/index.html">Rage Board</a>
+                  <a target="_blank" class="dropdown-item" href="./projects/SpeedReader/index.html">Speed Reader</a>
+                  <a target="_blank" class="dropdown-item" href="./projects/SnakeGame/index2.html">Snake Game</a>
                 </div>
               </li>
           </ul>
         </div>
     </nav>
+    <!-- end navbar -->
 
-    <div class="container-fluid text-center" id="aboutMe">
-        <h1 class="pb-5" style="font-size: 80px">Tahsin Islam</h1>
-        <h2 class="pb-5">I am a sophomore at the University of Central Florida studying Computer Science</h2>
-    </div>
+    <!-- about me -->
+    <div class="container">
+        <div class="row align-items-center my-5">
+            <!-- bio -->
+            <div class="col-lg-6">
+                <h1 class="font-weight-bold bio">Hey, I'm Tahsin 👋</h1>
+                <p class="bio">I am a sophomore student studying Computer Science at the University of Central Florida. 
+                    My goal right now is to expand my set of skills and to make more neat projects. 
+                </p>
+            </div>
+            <!-- end bio -->
 
-    <div class="pb-5" id="knowledgetxt">
-        <h3>Here's what I know</h3>
+            <!-- Picture -->
+            <div class="col-lg-6">
+                <img id="profilepic" src="assets/walid_islam.jpg">
+            </div>
+            <!-- end picture -->
+        </div>
     </div>
-    
+    <!-- about me -->
+    <br>
+    <br>
+    <br>
+
+
+    <!-- knowledge -->
+    <div class="col-log-12 text-center">
+        <h2 class="font-weight-bold">Skills</h2>
+        <h4 class="font-weight-bold">Heres what I know so far. I'm always looking to learn more.</p>
+    </div>
     <div class="container-lg" id="knowledgecontainer">
         <div class="row text-center">
-            <div class=col-sm-3>
+            <div class=col-sm-4>
                 <img class="icon" src="assets/html5.png">
                 <h3 class="subtitle">HTML</h3>
                 <h4 class="subtitle">I use HTML to put together the elements of my website</h4>
             </div>
-            <div class=col-sm-3>
+            <div class=col-sm-4>
                 <img class="icon" src="assets/css.png">
                 <h3 class="subtitle">CSS</h3>
                 <h4 class="subtitle">I use CSS to give my projects some style</h4>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                 <img class="icon" src="assets/js.png">
                 <h3 class="subtitle">JavaScript</h3>
                 <h4 class="subtitle">I use JavaScript to make the page respond to the user's actions</h4>
             </div>
-            <div class=col-sm-3>
+            
+            
+        </div>
+        <br>
+        <div class="row text-center">
+            <div class=col-sm-6>
                 <img class="icon" src="assets/jquery.jpg">
                 <h3 class="subtitle">jQuery</h3>
                 <h4 class="subtitle">jQuery is a JavaScript library that I use to manipulate HTML elements
                 </h4>
             </div>
-            
-        </div>
-        <br>
-        <div class="row text-center">
-            <div class=col-sm-12>
+            <div class=col-sm-6>
                 <img class="icon" src="assets/bootstrap4.png">
                 <h3 class="subtitle">Bootstrap 4</h3>
                 <h4 class="subtitle">Bootstrap 4 allows me to make my webpages responsive and mobile friendly</h4>
             </div>
         </div>
     </div>
+    <!-- end knowledge -->
+
 </body>

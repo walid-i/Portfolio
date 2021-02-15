@@ -1,4 +1,10 @@
+body {
+    background-color: #EFF8FE !important;
+}
 
+.navbar-custom {
+    background-color: skyblue;
+}
 
 #knowledge {
     display: flex;
@@ -17,3 +23,29 @@
     padding-top: 25px;
     padding-bottom: 15px;
 }
+
+#knowledgecontainer {
+    padding-top: 50px;
+}
+
+#profilepic {
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.bio {
+    margin: auto;
+    display: block;
+}
+
+.col-sm-6{
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+
+  .col-sm-4{
+    flex: 0 0 30%;
+    max-width: 30%;
+  }

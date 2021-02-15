@@ -1,0 +1,51 @@
+#main{
+    background: lightblue;
+    text-align: center;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    border: 5px red;
+    border-radius: 15px;
+    overflow: visible;
+    padding: 50px;
+    width: 900px;
+    margin:auto;
+}
+
+#textarea{
+    border: hidden;
+    height: 511px;
+    width: 791px;
+    resize: none;
+    margin: 20px;
+}
+
+#wordDisplay{
+    background: whitesmoke;
+    padding: 50px;
+    font-size: 50pt;
+}
+
+#slider{
+    width: 791px;
+}
+
+.buttons{
+    padding: 20px;
+    border: hidden;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 14pt;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons:hover{
+    background-color: royalblue;
+}
+
+.secondScreen{
+    display: none;
+    padding: 10px;
+}

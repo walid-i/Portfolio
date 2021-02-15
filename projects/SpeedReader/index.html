@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body style="background-color: #271D47;">
+        <div id="main">
+            <p class="initialScreen">Paste your content below</p>
+            <div>
+                <textarea autofocus id="textarea" class="initialScreen">Oh? So you want to read stuff faster whilst still being able to comprehend everything you read? Well guess what, your mind is incredible and you can read a lot faster than you think. The average reader can read about 200 WPM with about 60% comprehension, but that's if you read left to right. If you read something one word at a time instead without moving your eyes, you can increase your WPM without losing your comprehension! Don't believe it? Go ahead and click the "Read!" button below or Else Paste the Text which you would like to read , Enjoy :)</textarea>
+            </div>
+            
+            <div id="wordDisplay" class="secondScreen" style = "display: none">
+                <p id="wordDisplay2"></p>
+            </div>
+
+            <div class="secondScreen">
+                <input type="range" min="0" max="50" value="0" id="slider">
+            </div>
+
+            <div style = "margin:10px;">
+                <p style="float: left;">WPM</p>
+                <p style="float: left;"><span><input id = "WPMinput" style="float:left; margin-left: 10px;" type="number" value="100"></span></p>
+                <p id="wordCount2" style="float:right;"></p>
+                <br>
+            </div>
+            
+            <div>
+                <button id="backbutton" class="buttons secondScreen">BACK</button>
+                <button id="startbutton" class="buttons">START</button>
+                <button id="startoverbutton" class="buttons secondScreen">STARTOVER</button>
+            </div>
+            
+        </div>  
+
+        <script src="app.js"></script>
+    </body>
+</html>
